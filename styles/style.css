@@ -51,7 +51,8 @@ body {
 
 .action-container,
 .user-section,
-.review {
+.review,
+.template {
     width: 1140px;
     margin: 0px auto;
 
@@ -228,4 +229,38 @@ nav {
     margin-top: 3px;
     font-size: 12;
     color: rgba(117, 117, 117, 1);
+}
+
+/* Template Section Style  */
+
+.template {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 14px;
+    margin-bottom: 90px;
+}
+
+.template-content {
+    text-align: center;
+}
+
+.template-content h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 70px 0px 20px;
+}
+
+.template-content p {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.template-image {
+    margin: 20px 150px 70px;
+}
+
+.template-image img {
+    border-radius: 48px;
 }
