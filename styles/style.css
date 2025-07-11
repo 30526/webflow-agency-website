@@ -50,7 +50,8 @@ body {
 }
 
 .action-container,
-.user-section {
+.user-section,
+.review {
     width: 1140px;
     margin: 0px auto;
 
@@ -159,4 +160,72 @@ nav {
 
 .users p {
     font-size: 20px;
+}
+
+
+/* Review Section Styles  */
+.review {
+    margin-bottom: 137px;
+}
+
+.review-information h2 {
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.reviews {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+
+}
+
+.review-card {
+    background-color: white;
+    border-radius: 14px;
+    width: 360px;
+    padding: 24px;
+}
+
+.star {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 24px;
+}
+
+.review-card h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: rgba(30, 30, 30, 1);
+    margin-bottom: 8px;
+}
+
+.review-card p {
+    font-size: 16px;
+    color: rgba(30, 30, 30, 1);
+}
+
+.profile-image {
+    width: 40px;
+}
+
+.profile {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.profile h6 {
+    font-size: 14px;
+    color: rgb(71, 71, 71);
+    font-weight: bold;
+}
+
+.profile p {
+    margin-top: 3px;
+    font-size: 12;
+    color: rgba(117, 117, 117, 1);
 }
