@@ -41,7 +41,7 @@ body {
 }
 
 .btn-primary:hover {
-    background-color: #3832fd;
+    background-color: #231cfd;
     cursor: pointer;
 }
 
@@ -270,7 +270,7 @@ nav {
 }
 
 
-/* login styles  */
+/* login section styles  */
 .login {
     display: flex;
     justify-content: space-between;
@@ -340,6 +340,48 @@ textarea {
 }
 
 .login-btn:hover {
-    background-color: #3832fd;
+    background-color: #231cfd;
     cursor: pointer;
+}
+
+
+/* Footer Styles  */
+.footer-container {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-content {
+    text-align: center;
+    margin: 100px 0px;
+}
+
+.footer-content h2 {
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.footer-content p {
+    font-size: 16px;
+    color: rgba(137, 135, 161, 1);
+    margin-top: 8px;
+}
+
+.footer-content ul {
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer-content ul li {
+    list-style: none;
+}
+
+.footer-content ul a {
+    text-decoration: none;
+    color: rgba(137, 135, 161, 1);
 }
