@@ -14,6 +14,10 @@
     color: #4E47FF;
 }
 
+.inter-font {
+    font-family: "Inter", sans-serif;
+}
+
 .inter-primary {
     color: rgba(0, 0, 0, 0.5);
 }
@@ -52,7 +56,8 @@ body {
 .action-container,
 .user-section,
 .review,
-.template {
+.template,
+.login {
     width: 1140px;
     margin: 0px auto;
 
@@ -215,7 +220,6 @@ nav {
 .profile {
     display: flex;
     gap: 5px;
-    align-items: center;
     margin-top: 24px;
 }
 
@@ -263,4 +267,79 @@ nav {
 
 .template-image img {
     border-radius: 48px;
+}
+
+
+/* login styles  */
+.login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-column {
+    margin: 70px 0px;
+}
+
+.title-column h2 {
+    font-size: 95px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+    margin: 200px 0px;
+}
+
+label,
+input,
+textarea {
+    display: block;
+
+}
+
+.login-info,
+.message-info::placeholder {
+    font-family: "Inter", sans-serif;
+}
+
+.login-info {
+    width: 500px;
+    height: 70px;
+    border: 1px solid rgba(214, 221, 237, 1);
+    border-radius: 10px;
+    padding: 20px 32px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.login-column label {
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.message-info {
+    width: 500px;
+    height: 135px;
+    border: 1px solid rgba(214, 221, 237, 1);
+    border-radius: 10px;
+    padding: 20px 32px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.login-btn {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px 235px;
+    color: white;
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 10px;
+}
+
+.login-btn:hover {
+    background-color: #3832fd;
+    cursor: pointer;
 }
